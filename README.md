@@ -84,7 +84,7 @@ $double_quoted_string = "Hello";
 The values of these variables are exactly the same.
 
 ### Adding Strings Together
-You can add strings together by separating them with a dot. We call this "concatenation" (strange word indeed).
+You can add strings together by separating them with a dot. We call this "string concatenation" (strange word indeed).
 
 ```php
 $concatenated_string = 'Add a string' . ' to ' . 'another string';
