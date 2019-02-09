@@ -49,11 +49,12 @@ Because there is no HTML between these lines we can also write it like this.
 <?php
 $my_variable = 'I want to learn PHP';
 
+// This variable contains a string
 echo $my_variable;
 ?>
 ```
 
-This code will display `I want to learn PHP`. Check out those semicolons at the end of each PHP statement! 
+This code will display `I want to learn PHP`. PHP skips over lines (like they don't exist) if they start with two forward slashes. This is called a "PHP comment".
 
 To recap
 
@@ -65,6 +66,8 @@ To recap
 * PHP stops working if there's an error
 * Variables hold values
 * A string is a series of characters inside quotes
+* PHP comments start with two forward slashes
+* PHP comments are not displayed
 
 ## Strings.
 A string is a series of characters inside single or double quotes.
@@ -86,9 +89,11 @@ $concatenated_string = 'Add a string' . ' to ' . 'another string';
 The value of the `$concatenated_string` variable is now `Add a string to another string`. We can do exactly the same by assigning them with the concatenating assignment operator `.=`.
 
 ```php
+$another_string = 'another_string';
+
 $string = 'Add a string';
 $string .= ' to';
-$string .= ' another string';
+$string .= $another_string;
 ```
 The value of the `$string` variable is `Add a string to another string`.
 
