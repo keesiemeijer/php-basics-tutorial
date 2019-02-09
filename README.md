@@ -37,7 +37,7 @@ As you can see, the `$my_variable` variable has a value of `I want to learn PHP`
 
 In PHP a "string" is a series of characters inside single or double quotes. We could say "The `$my_variable` variable is/holds/contains a string". More about strings later.
 
-Let's say we wanted to display the value of the variable in a web page. We can use the `echo` function for this. (Functions do all sorts of stuff, but more on that later)
+Let's say we wanted to display the value of the variable in a web page. We can use the `echo` function for this. (Functions do all sorts of things, but more on that later)
 
 ```php
 <?php $my_variable = 'I want to learn PHP'; ?>
@@ -53,7 +53,7 @@ echo $my_variable;
 ?>
 ```
 
-See those semicolons at the end of each PHP statement! This code will display `I want to learn PHP`.
+This code will display `I want to learn PHP`. Check out those semicolons at the end of each PHP statement! 
 
 To recap
 
