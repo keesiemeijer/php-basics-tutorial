@@ -138,7 +138,7 @@ echo "this is a quote \", this is a backslash \\ and this is a dollar sign \$"
 Double quoted strings allow you to insert variables inside of them. The variable will be (what we call) "expanded" inside the string.
 
 ```php
-$first_string = 'I want to learn PHP';
+$my_variable = 'I want to learn PHP';
 echo "Hello, {$first_string}";
 ```
 
