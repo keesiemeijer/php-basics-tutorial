@@ -62,7 +62,9 @@ echo $my_variable;
 ?>
 ```
 
-This code will display `I want to learn PHP`. PHP skips over lines if they start with two forward slashes (as if they don't exist). This is called a "PHP comment". Use them to a add readable explanations to your code. 
+This code will display `I want to learn PHP`.
+
+PHP skips over lines if they start with two forward slashes (as if they don't exist). This is called a "PHP comment". Use them to a add readable explanations to your code. 
 
 To recap
 
