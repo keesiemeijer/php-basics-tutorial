@@ -35,7 +35,7 @@ As you can see, the `$my_variable` variable has a value of `I want to learn PHP`
 
 **Note**: PHP requires instructions to end with a semicolon (`;`) at the end of each statement. It will result in errors if you leave it out. PHP stops working after errors and we don't like that.
 
-The value of the variable above is called a "string". A string is a series of characters inside single or double quotes. More about strings later.
+The value of the variable above is called a "string". In PHP a string is a series of characters inside single or double quotes. We could say "the variable contains/holds a string". More about strings later.
 
 Let's say we wanted to display the value of the variable in a web page. We can use the `echo` function for this. (Functions do all sorts of stuff, but more on that later)
 
