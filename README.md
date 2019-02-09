@@ -55,14 +55,14 @@ Because there is no HTML between these lines we can also write it like this.
 
 ```php
 <?php
+// This variable contains a string
 $my_variable = 'I want to learn PHP';
 
-// This variable contains a string
 echo $my_variable;
 ?>
 ```
 
-This code will display `I want to learn PHP`. PHP skips over lines (like they don't exist) if they start with two forward slashes. This is called a "PHP comment".
+This code will display `I want to learn PHP`. PHP skips over lines if they start with two forward slashes (as if they don't exist). This is called a "PHP comment". Use them to a add readable explanations to your code. 
 
 To recap
 
