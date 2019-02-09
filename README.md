@@ -94,7 +94,7 @@ The value of the `$concatenated_string` variable is now `Add a string to another
 $another_string = 'another_string';
 
 $string = 'Add a string';
-$string .= ' to';
+$string .= ' to ';
 $string .= $another_string;
 ```
 The value of the `$string` variable is `Add a string to another string`.
