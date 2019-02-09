@@ -6,7 +6,7 @@ In this tutorial you learn the very basics of PHP. For this tutorial it's assume
 
 ## First thing first
 
-PHP files have a `.php` file extention (e.g. `my-first-php-file.php`). When PHP looks at a PHP file, it looks for the opening and closing PHP tags `<?php` and `?>`. This tells PHP the code inside the tags is actual PHP code. The fun thing about PHP files is that they can contain HTML (or other languages) as well. 
+PHP files have a `.php` file extention (for example `my-first-php-file.php`). When PHP looks at a PHP file, it looks for the opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is actual PHP code. The great thing about PHP files is that they can contain HTML (or other languages) as well. 
 
 Here is a simple example of a web page with some HTML and PHP code.
 
@@ -25,7 +25,7 @@ As you can see, the PHP code is where we started and ended with the opening and 
 
 ## Variables.
 
-Let's start with a thing called variables. In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign followed by the name of the variable. 
+Let's start with a thing called "variables". In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign followed by the name of the variable. 
 
 ```php
 <?php $my_variable = 'I want to learn PHP'; ?>
@@ -51,10 +51,11 @@ echo $my_variable;
 ?>
 ```
 
-See those semicolons at the end of each PHP statement! This code will display a web page with `I want to learn PHP`.
+See those semicolons at the end of each PHP statement! This code will display `I want to learn PHP`.
 
 To recap
 
+* PHP files have a `.php` file extention
 * PHP files can contain PHP and HTML.
 * PHP code needs to be inside opening and closing PHP tags and have a semicolon after each statement.
 * You only need the opening PHP tag if the file only contains PHP code
@@ -70,7 +71,7 @@ $single_quoted_string = 'Hello';
 $double_quoted_string = "Hello";
 ```
 
-The string values of these variables are exactly the same.
+The values of these variables are exactly the exact same string.
 
 ### Adding Strings Together
 You can add strings together by separating them with a dot. We call this "concatenation" (strange word indeed).
@@ -106,10 +107,10 @@ $double_quoted = "This 'is' fine";
 Or you can use concatenation.
 
 ```php
-$concatenated  = 'This is' . " 'is' " . 'fine, but less readable';
+$concatenated  = 'This' . " 'is' " . 'fine, but less readable';
 ```
 
-Another trick is by adding a backslash before the quotes `\"`. We call this 'escaping the quote'. This can only be used in double quoted strings. This following displays `This "is" fine` (without the backslashes).
+Another trick is by adding a backslash before the quotes `\"`. We call this 'escaping the quote'. Escaping characters can only be done in double quoted strings. The following displays `This "is" fine` (without the backslashes) without errors.
 
 ```php
 $double_quoted = "This \"is\" fine";
@@ -121,20 +122,20 @@ The caracters `\` and `$` in double quoted strings need escaping as well, becaus
 ```php
 echo "this is a quote \", this is a backslash \\ and this is a dollar sign \$"
 ```
-
-Double quoted strings also lets you use insert variables inside them. The variable will be (what we call) expanded inside the string.
+### Variables inside strings
+Double quoted strings allow you to insert variables inside of them. The variable will be (what we call) "expanded" inside the string.
 
 ```php
 $first_string = 'I want to learn PHP';
-$second_string = "Hello, {$first_string}";
+echo "Hello, {$first_string}";
 ```
 
-The value of the `$second_string` variable is now `Hello, I want to learn PHP`.
-If it was a single quoted string the value would still be `Hello, {$first_string}`.
+This will display `Hello, I want to learn PHP`.
+If it was a single quoted string it would still display `Hello, {$first_string}`.
 
 The curly brackets `{}` are optional (and also not displayed). But it's used to tell PHP "I am a variable that should be expanded".
 
-It's also important to know that the value of the expanded variable should be a string.
+**Note**: It's important to know that the value of the expanded variable should be a string.
 
 To recap
 
