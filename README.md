@@ -91,7 +91,7 @@ $string .= ' another string';
 ```
 The value of the `$string` variable is `Add a string to another string`.
 
-### Quotes Inside a String
+### Quotes Inside Strings
 You need to be aware that you can't use the same type of quote inside a string. The following will get you an error.
 
 ```php
