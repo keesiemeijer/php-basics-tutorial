@@ -13,12 +13,12 @@ Here is a simple example of a web page with some HTML and PHP code.
 ```php
 <html>
 	<body>
-		<?php echo 'Welcome to my web page'; ?>
+		<p><?php echo 'Welcome to my web page'; ?></p>
 	</body>
 </html>
 ```
 
-As you can see, the PHP code is where we started and ended with the opening and closing PHP tags `<?php` and `?>`. If the whole file is only PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
+As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the whole file is only PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
 ## Editing PHP Files
 (Todo)
