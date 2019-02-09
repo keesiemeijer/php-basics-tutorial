@@ -20,7 +20,7 @@ Here is a simple example of a web page with some HTML and PHP code.
 
 As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the whole file is only PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
-**Note**: PHP requires instructions to end with a semicolon (`;`) at the end of each PHP statement. It will result in errors if you leave it out. PHP stops working after errors and we don't like that.
+**Note**: PHP requires instructions to end with a semicolon (`;`) at the end of each PHP statement. It will result in errors if you leave it out. PHP stops working after errors and we don't like that. You can see the semicolon in the code above.
 
 To recap:
 * PHP files have a `.php` file extention
@@ -41,7 +41,7 @@ Let's start with a thing called "variables". In computer programming, a variable
 <?php $my_variable = 'I want to learn PHP'; ?>
 ```
 
-As you can see, the `$my_variable` variable has a value of `I want to learn PHP`. See the following note why it has a semicolon (`;`) at the end.
+As you can see, the `$my_variable` variable has a value of `I want to learn PHP`.
 
 In PHP a "string" is a series of characters inside single or double quotes. With this information we can say "The `$my_variable` variable is/holds/contains a string". More about strings later.
 
