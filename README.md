@@ -58,12 +58,13 @@ See those semicolons at the end of each PHP statement! This code will display `I
 To recap
 
 * PHP files have a `.php` file extention
-* PHP files can contain PHP and HTML.
-* PHP code needs to be inside opening and closing PHP tags and have a semicolon after each statement.
+* PHP files can contain PHP and HTML
+* PHP code needs to be inside opening and closing PHP tags.
 * You only need the opening PHP tag if the file contains only PHP code
-* PHP stops working if there's an error.
-* Variables hold values.
-* A string is a series of characters inside quotes.
+* A semicolon is needed after each statement
+* PHP stops working if there's an error
+* Variables hold values
+* A string is a series of characters inside quotes
 
 ## Strings.
 A string is a series of characters inside single or double quotes.
@@ -141,11 +142,11 @@ The curly brackets `{}` are optional (and also not displayed). But it's used to 
 
 To recap
 
-* A string is a series of characters inside single or double quotes.
-* You can add strings together with concatenation (separating them with a dot).
+* A string is a series of characters inside single or double quotes
+* You can add strings together with concatenation (separating them with a dot)
 * We can also do this with the concatenating assignment operator `.=`
-* The wrong type of quote in a string can cause errors.
+* The wrong type of quote in a string can cause errors
 * You can escape quotes and special characters with a backslash inside a double quoted string.
-* Variables can be inserted in a double quoted string.
-* The value of the expanded variable should be a string.
+* Variables can be inserted in a double quoted string
+* The value of the expanded variable should be a string
 
