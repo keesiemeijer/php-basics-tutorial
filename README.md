@@ -61,7 +61,7 @@ To recap
 * PHP files can contain PHP and HTML
 * PHP code needs to be inside opening and closing PHP tags.
 * You only need the opening PHP tag if the file contains only PHP code
-* A semicolon is needed after each statement
+* A semicolon is needed after each PHP statement
 * PHP stops working if there's an error
 * Variables hold values
 * A string is a series of characters inside quotes
