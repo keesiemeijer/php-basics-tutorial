@@ -159,3 +159,11 @@ To recap
 * Variables can be inserted in a double quoted string
 * The value of the expanded variable should be a string
 
+## Arrays
+(Todo)
+
+## Loops
+(Todo)
+
+## Functions
+(Todo)
