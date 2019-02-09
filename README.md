@@ -31,7 +31,9 @@ Let's start with a thing called "variables". In computer programming, a variable
 <?php $my_variable = 'I want to learn PHP'; ?>
 ```
 
-As you can see, the `$my_variable` variable has a value of `I want to learn PHP`, but why does it have a semicolon (`;`) at the end? PHP requires instructions to end with a semicolon at the end of each statement. It will result in errors if you leave it out. PHP stops working after errors and we don't like that.
+As you can see, the `$my_variable` variable has a value of `I want to learn PHP`, but why does it have a semicolon (`;`) at the end? See the following note.
+
+**Note**: PHP requires instructions to end with a semicolon (`;`) at the end of each statement. It will result in errors if you leave it out. PHP stops working after errors and we don't like that.
 
 The value of the variable above is called a "string". A string is a series of characters inside single or double quotes. More about strings later.
 
