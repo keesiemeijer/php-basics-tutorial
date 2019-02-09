@@ -35,7 +35,7 @@ To recap:
 
 ## Variables.
 
-Let's start with a thing called "variables". In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign followed by the name of the variable. 
+Let's start with a thing called "variables". In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign `$` followed by the name of the variable. 
 
 ```php
 <?php $my_variable = 'I want to learn PHP'; ?>
