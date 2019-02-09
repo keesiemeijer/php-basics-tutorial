@@ -4,7 +4,7 @@ PHP is a popular programming language that is especially used for web developmen
 
 In this tutorial you learn the very basics of PHP. For this tutorial it's assumed you have little to no knowledge of PHP or other programming languages. Wherever possible the correct terms are used, so it can help you in finding more information on the web.
 
-## First thing first
+## First things first
 
 PHP files are files that have a `.php` file extention (for example `my-php-file.php`). When PHP looks at a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is the actual PHP code. The great thing about PHP files is that they can contain HTML (or other languages) as well. 
 
