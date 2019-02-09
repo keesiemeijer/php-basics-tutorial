@@ -6,7 +6,7 @@ In this tutorial you learn the very basics of PHP. For this tutorial it's assume
 
 ## First thing first
 
-PHP files are files with the `.php` file extention (for example `my-first-php-file.php`). When PHP looks at a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is actual PHP code. The great thing about PHP files is that they can contain HTML (or other languages) as well. 
+PHP files are files that have a `.php` file extention (for example `my-php-file.php`). When PHP looks at a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is the actual PHP code. The great thing about PHP files is that they can contain HTML (or other languages) as well. 
 
 Here is a simple example of a web page with some HTML and PHP code.
 
@@ -20,7 +20,7 @@ Here is a simple example of a web page with some HTML and PHP code.
 
 As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the whole file is only PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
-**Note**: PHP requires instructions to end with a semicolon (`;`) at the end of each PHP statement. It will result in errors if you leave it out. PHP stops working after errors and we don't like that. You can see the semicolon in the code above.
+**Note**: PHP requires instructions to end with a semicolon (`;`) at the end of each PHP statement. It will result in errors if you leave it out. PHP stops working after errors (and we don't like that). You can also see the semicolon in the code above.
 
 To recap:
 * PHP files have a `.php` file extention
