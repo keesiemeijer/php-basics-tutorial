@@ -200,7 +200,7 @@ $animals = array( 'dog', 'cat', 'rabbit' );
 $animals[] = 'chicken';
 ```
 
-This is how PHP sees the array with the added value
+This is how PHP sees the array with the added `chicken` value.
 ```php
 array(
 	0 => 'dog',
