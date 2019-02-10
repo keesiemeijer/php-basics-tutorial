@@ -169,7 +169,7 @@ Arrays are variables that allow us to store more than one value in a single vari
 This is an array with 3 values ( dog, cat and rabbit ) 
 
 ```
-$animals = array( 'dog', 'cat', 'Rabbit' );
+$animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
 PHP sees this array like this.
