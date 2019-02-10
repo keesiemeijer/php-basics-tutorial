@@ -2,7 +2,7 @@
 
 PHP is a popular programming language that is especially used for web development.
 
-In this tutorial you learn the essential basics of PHP and what terminology is used. This can help you prevent errors or find information more easily when you just start out with this programming language. It's assumed the reader has little to no knowledge of PHP or other programming languages. 
+In this tutorial you learn the basic concepts of the PHP language and its commonly used terminology. It's assumed the reader has little to no knowledge of PHP or other programming languages. If you're just starting out with programming it can help with preventing errors, or find more in depth information about PHP more easily.
 
 ## First things first
 
@@ -20,7 +20,7 @@ Here is a simple example of a web page with some HTML and PHP code.
 
 As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the whole file only contains PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
-**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If it's missing PHP will give you an error and stops working. You can see the ending semicolon in the code above.
+**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If it's missing PHP will give you an error and stop working. You can see the ending semicolon in the code above.
 
 To recap:
 * PHP files have a `.php` file extention
