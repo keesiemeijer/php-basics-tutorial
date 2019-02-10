@@ -123,7 +123,7 @@ Or you can use concatenation.
 $concatenated  = 'This' . " 'is' " . 'fine, but less readable';
 ```
 
-Another trick is by adding a backslash before the quotes `\"`. We call this "escaping a quote in a string". Escaping special characters with a backslash can only be done in double quoted strings.
+Another trick is by adding a backslash before the quotes `\"`. We call this "escaping". Escaping special characters with a backslash can only be done in double quoted strings.
 
 ```php
 $double_quoted = "This \"is\" fine";
