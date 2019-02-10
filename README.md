@@ -192,7 +192,7 @@ $animals = array( 'dog', 'cat', 'rabbit' );
 echo $animals[0];
 ```
 
-This will display `dog`.
+This code will display `dog`.
 
 By adding empty "square brackets" `[]` after the variable you can add a new value to the array.
 ```php
