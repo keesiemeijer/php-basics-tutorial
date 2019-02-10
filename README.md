@@ -209,6 +209,7 @@ array(
 	3 => 'chicken',
 );
 ```
+As you can see, it was added at the end.
 
 (Todo) Associative arrays — An array where each key has its own specific value.
 (Todo) Multidimensional arrays — An array containing one or more arrays within itself.
