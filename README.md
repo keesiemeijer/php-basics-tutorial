@@ -2,7 +2,7 @@
 
 PHP is a popular programming language that is especially used for web development.
 
-In this tutorial you learn the essential basics of PHP and what terminology is used. This can be helpfull in preventing errors or looking up PHP related information on the web when you just start out. It's assumed the reader has little to no knowledge of PHP or other programming languages. 
+In this tutorial you learn the essential basics of PHP and what terminology is used. This can be help you prevent errors when you just start out with this programming language. It's assumed the reader has little to no knowledge of PHP or other programming languages. 
 
 ## First things first
 
