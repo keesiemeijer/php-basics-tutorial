@@ -75,7 +75,7 @@ To recap
 * PHP comments are not displayed
 
 ## Strings.
-A string is a series of characters inside single or double quotes.
+As we have already learned, a string is a series of characters inside single or double quotes.
 
 ```php
 $single_quoted_string = 'Hello';
