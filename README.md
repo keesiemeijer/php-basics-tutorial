@@ -177,7 +177,7 @@ Because we didn't provide any `keys` in this array PHP sees it like this.
 array(
 	0 => 'dog',
 	1 => 'cat',
-	2 => 'rabbit'
+	2 => 'rabbit',
 );
 ```
 
