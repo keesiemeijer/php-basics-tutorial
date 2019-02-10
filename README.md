@@ -164,7 +164,37 @@ To recap
 * The value of the expanded variable should be a string
 
 ## Arrays
-(Todo)
+Arrays are variables that allow us to store more than one value in a single variable. It takes any number of comma-separated `key` => `value` pairs as arguments. Let me explain what this means.
+
+This is an array with 3 values (dogs, cats and ) 
+
+```
+$animals = array( 'dog', 'cat', 'Rabbit' );
+```
+
+PHP sees this array like this.
+```
+array(
+	[0] => 'dog',
+	[1] => 'cat',
+	[2] => 'Rabbit'
+);
+```
+
+The keys of this array are 0, 1 and 2. This kind of array is called a "numerical array" because all the keys are numbers.
+
+**Note**: It's very common in programming languages to start counting from 0.
+
+We can use the keys to get a single value from the array.
+
+```php
+echo $animals[0];
+```
+
+This will display `dog`
+
+
+
 
 ## Loops
 (Todo)
