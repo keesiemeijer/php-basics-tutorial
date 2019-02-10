@@ -2,11 +2,11 @@
 
 PHP is a popular programming language that is especially used for web development.
 
-In this tutorial you learn the very basics of PHP. For this tutorial it's assumed you have little to no knowledge of PHP or other programming languages. Wherever possible the correct terms are used, so it can help you in finding more information on the web.
+In this tutorial you learn the essential basics of PHP and what terminology is used. This can be helpfull in preventing errors or looking up PHP related information on the web when you just start out. It's assumed the reader has little to no knowledge of PHP or other programming languages. 
 
 ## First things first
 
-PHP files are files that have a `.php` file extention (for example `my-php-file.php`). When PHP reads a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is the actual PHP code. The great thing about PHP files is that they can contain HTML (or other languages) as well. 
+A PHP file contains PHP tags and ends with the file extension `.php`. When PHP reads a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is the actual PHP code. The great thing about PHP files is that they can contain HTML (or other languages) as well. 
 
 Here is a simple example of a web page with some HTML and PHP code.
 
@@ -20,7 +20,7 @@ Here is a simple example of a web page with some HTML and PHP code.
 
 As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the whole file is only PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
-**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. It will result in errors if you leave it out. PHP stops working after errors (and we don't like that). You can also see the ending semicolon in the code above.
+**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. It will result in errors if you leave it out. PHP stops working after errors. You can also see the ending semicolon in the code above.
 
 To recap:
 * PHP files have a `.php` file extention
@@ -35,15 +35,15 @@ To recap:
 
 ## Variables.
 
-Let's start with a thing called "variables". In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign `$` followed by the name of the variable. 
+Let's start with a thing called "variables". In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign `$` followed by the name of the variable. After declaring a variable it can be reused throughout the code. 
 
 ```php
 <?php $my_variable = 'I want to learn PHP'; ?>
 ```
 
-As you can see, the `$my_variable` variable has a value of `I want to learn PHP`.
+As you can see, the `$my_variable` variable has a value of `I want to learn PHP`. 
 
-In PHP a "string" is a series of characters inside quotes. With this information we can say "The `$my_variable` variable is/holds/contains a string". More about strings later.
+In PHP a "string" is a series of characters inside quotes. With this information we can say "The `$my_variable` variable contains a string". More about strings later.
 
 Let's say we wanted to display the value of the variable in a web page. We can use the PHP `echo` function for this. (Functions do all sorts of things, but more on that later)
 
@@ -69,6 +69,7 @@ PHP skips over lines if they start with two forward slashes (as if they don't ex
 To recap
 
 * Variables hold values
+* Variables can be reused throughout the code
 * A string is a series of characters inside quotes
 * PHP comments start with two forward slashes
 * PHP comments are not displayed
