@@ -20,7 +20,7 @@ Here is a simple example of a web page with some HTML and PHP code.
 
 As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the whole file is only PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
-**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. It will result in errors if you leave it out. PHP stops working after errors. You can also see the ending semicolon in the code above.
+**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If the semicolon is missing PHP doesn't know if the statement has ended and will give you an error. PHP stops working if it encounters an error. You can see the ending semicolon in the code above.
 
 To recap:
 * PHP files have a `.php` file extention
