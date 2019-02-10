@@ -188,6 +188,7 @@ It adds the keys 0, 1 and 2 for us. This kind of array is called a "numerical" o
 We can use the keys to get a single value out from the array.
 
 ```php
+$animals = array( 'dog', 'cat', 'rabbit' );
 echo $animals[0];
 ```
 
@@ -195,6 +196,7 @@ This will display `dog`.
 
 By adding empty "brackets" `[]` after the variable you can add a new value to the array.
 ```php
+$animals = array( 'dog', 'cat', 'rabbit' );
 $animals[] = 'chicken';
 ```
 
