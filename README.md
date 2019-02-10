@@ -88,19 +88,19 @@ The values of these variables are exactly the same.
 You can add strings together by separating them with a dot. We call this "string concatenation" (strange word indeed).
 
 ```php
-$concatenated_string = 'Add a string' . ' to ' . 'another string';
+$concatenated = 'Add a string' . ' to ' . 'another string';
 ```
 
-The value of the `$concatenated_string` variable is now `Add a string to another string`. We can do exactly the same by assigning them with the concatenating assignment operator `.=`.
+The value of the `$concatenated` variable is now `Add a string to another string`. We can do exactly the same by assigning them with the concatenating assignment operator `.=`.
 
 ```php
 $another_string = 'another_string';
 
-$string = 'Add a string';
-$string .= ' to ';
-$string .= $another_string;
+$concatenated = 'Add a string';
+$concatenated .= ' to ';
+$concatenated .= $another_string;
 ```
-The value of the `$string` variable is `Add a string to another string`.
+The value of the `$concatenated` variable is `Add a string to another string`.
 
 ### Quotes Inside Strings
 You need to be aware that you can't use the same type of quote inside a string. The following will get you an error.
