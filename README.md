@@ -166,13 +166,13 @@ To recap
 ## Arrays
 Arrays are variables that allow us to store more than one value in a single variable. It takes any number of comma-separated `key` => `value` pairs as arguments. Let me explain what this means.
 
-This is an array with 3 values ( dog, cat and rabbit ) 
+This is an array with 3 `values` ( dog, cat and rabbit ) 
 
 ```
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-Because we didn't provide any keys in this array PHP sees it like this.
+Because we didn't provide any `keys` in this array PHP sees it like this.
 ```
 array(
 	0 => 'dog',
@@ -181,11 +181,11 @@ array(
 );
 ```
 
-The keys of this array are 0, 1 and 2. This kind of array is called a "numerical array" because all the keys are numbers.
+It adds the keys 0, 1 and 2 for us. This kind of array is called a "numerical" or "indexed" array because all the keys are numbers.
 
 **Note**: It's very common in programming languages to start counting from 0.
 
-We can use the keys to get a single value from the array.
+We can use the keys to get a single value out from the array.
 
 ```php
 echo $animals[0];
@@ -193,8 +193,23 @@ echo $animals[0];
 
 This will display `dog`.
 
+By adding empty "brackets" `[]` after the variable you can add a new value to the array.
+```
+$animals[] = 'chicken';
+```
 
+This is how PHP sees the array with the added value
+```php
+array(
+	0 => 'dog',
+	1 => 'cat',
+	2 => 'rabbit',
+	3 => 'chicken',
+);
+```
 
+(Todo) Associative arrays — An array where each key has its own specific value.
+(Todo) Multidimensional arrays — An array containing one or more arrays within itself.
 
 ## Loops
 (Todo)
