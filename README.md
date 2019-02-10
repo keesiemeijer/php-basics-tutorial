@@ -107,7 +107,7 @@ You need to be aware that you can't use the same type of quote inside a string. 
 
 ```php
 $single_quoted = 'Don't use single quotes in a single quoted string';
-$double_quoted = "This "string" contains errors";
+$double_quoted = "Don't use double "quotes" in a double quoted string";
 ```
 
 Using single quotes in a double quoted string or vice versa is totally fine.
