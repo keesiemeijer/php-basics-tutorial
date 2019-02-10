@@ -117,7 +117,7 @@ $single_quoted = 'This "is" fine';
 $double_quoted = "This 'is' fine";
 ```
 
-Or you can use concatenation.
+Or use concatenation.
 
 ```php
 $concatenated  = 'This' . " 'is' " . 'fine, but less readable';
