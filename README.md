@@ -168,12 +168,12 @@ Arrays are variables that allow us to store more than one value in a single vari
 
 This is an array with 3 `values` ( dog, cat and rabbit ) 
 
-```
+```php
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
 Because we didn't provide any `keys` in this array PHP sees it like this.
-```
+```php
 array(
 	0 => 'dog',
 	1 => 'cat',
@@ -194,7 +194,7 @@ echo $animals[0];
 This will display `dog`.
 
 By adding empty "brackets" `[]` after the variable you can add a new value to the array.
-```
+```php
 $animals[] = 'chicken';
 ```
 
