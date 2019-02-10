@@ -100,7 +100,7 @@ $concatenated = 'Add a string';
 $concatenated .= ' to ';
 $concatenated .= $another_string;
 ```
-The value of the `$concatenated` variable is `Add a string to another string`.
+The value of this `$concatenated` variable is also `Add a string to another string`.
 
 ### Quotes Inside Strings
 You need to be aware that you can't use the same type of quote inside a string. The following will get you an error.
