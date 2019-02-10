@@ -166,7 +166,7 @@ To recap
 ## Arrays
 Arrays are variables that allow us to store more than one value in a single variable. It takes any number of comma-separated `key` => `value` pairs as arguments. Let me explain what this means.
 
-This is an array with 3 values (dogs, cats and ) 
+This is an array with 3 values ( dog, cat and rabbit ) 
 
 ```
 $animals = array( 'dog', 'cat', 'Rabbit' );
@@ -177,7 +177,7 @@ PHP sees this array like this.
 array(
 	[0] => 'dog',
 	[1] => 'cat',
-	[2] => 'Rabbit'
+	[2] => 'rabbit'
 );
 ```
 
