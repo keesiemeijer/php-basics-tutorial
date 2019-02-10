@@ -172,12 +172,12 @@ This is an array with 3 values ( dog, cat and rabbit )
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-PHP sees this array like this.
+Because we didn't provide any keys in this array PHP sees it like this.
 ```
 array(
-	[0] => 'dog',
-	[1] => 'cat',
-	[2] => 'rabbit'
+	0 => 'dog',
+	1 => 'cat',
+	2 => 'rabbit'
 );
 ```
 
@@ -191,7 +191,7 @@ We can use the keys to get a single value from the array.
 echo $animals[0];
 ```
 
-This will display `dog`
+This will display `dog`.
 
 
 
