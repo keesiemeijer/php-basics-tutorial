@@ -181,7 +181,7 @@ array(
 );
 ```
 
-It adds the `keys` 0, 1 and 2 for us. This kind of array is called a "numerical" or "indexed" array because all the `keys` are numbers.
+It adds the keys 0, 1 and 2 for us. This kind of array is called a "numerical" or "indexed" array because all the keys are numbers.
 
 **Note**: It's very common in programming languages to start counting from 0.
 
