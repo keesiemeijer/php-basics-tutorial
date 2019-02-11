@@ -98,7 +98,9 @@ $concatenated = 'Add a string' . ' to ' . 'another string';
 echo $concatenated;
 ```
 
-This code will display `Add a string to another string`. We can do exactly the same by assigning them with the concatenating assignment operator `.=`
+This code will display `Add a string to another string`.
+
+We can do exactly the same by assigning them with the concatenating assignment operator `.=`
 
 ```php
 $another_string = 'another_string';
