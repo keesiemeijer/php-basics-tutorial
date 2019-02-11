@@ -77,6 +77,9 @@ To recap
 ## Strings.
 As we have already learned, a string is a series of characters inside single `'` or double `"` quotes.
 
+* A string with single quotes is called a `single quoted string`.
+* A string with double quotes is called a `double quoted string`.
+
 **Note**: The PHP opening and closing tags are left out in all code examples below. Assume the code is inside PHP tags `<?php  ?>`.
 
 ```php
