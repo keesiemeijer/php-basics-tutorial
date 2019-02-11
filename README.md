@@ -252,7 +252,7 @@ This is the value of the `$colors` variable after adding a value for the `firetr
 
 ```php
 array( 
-	'grass'     => 'green,
+	'grass'     => 'green',
 	'sky'       => 'blue',
 	'firetruck' => 'red',
 );
