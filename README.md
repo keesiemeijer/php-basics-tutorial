@@ -134,7 +134,7 @@ This code will display `This "is" fine` (without the backslashes). It doesn't pr
 The caracters `\` and `$` in double quoted strings need escaping as well, because they have a special meaning.
 
 ```php
-echo "this is a quote \", this is a backslash \\ and this is a dollar sign \$"
+echo "this is a quote \", this is a backslash \\ and this is a dollar sign \$";
 ```
 This code will display `this is a quote ", this is a backslash \ and this is a dollar sign $`
 
