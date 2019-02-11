@@ -143,7 +143,7 @@ Double quoted strings allow you to insert variables inside of them. The variable
 
 ```php
 $my_variable = 'I want to learn PHP';
-echo "Hello, {$first_string}";
+echo "Hello, {$my_variable}";
 ```
 
 This code will display `Hello, I want to learn PHP`.
