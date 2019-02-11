@@ -77,21 +77,25 @@ To recap
 ## Strings.
 As we have already learned, a string is a series of characters inside single `'` or double `"` quotes.
 
+**Note**: The PHP opening and closing tags are left out in all code examples below. Assume the code is inside PHP tags `<?php  ?>`.
+
 ```php
 $single_quoted_string = 'Hello';
 $double_quoted_string = "Hello";
 ```
 
-The values of these variables are exactly the same.
+The values of these variables are exactly the same (`Hello`).
 
 ### Adding Strings Together
 You can add strings together by separating them with a dot. We call this "string concatenation" (strange word indeed).
 
 ```php
 $concatenated = 'Add a string' . ' to ' . 'another string';
+
+echo $concatenated;
 ```
 
-The value of the `$concatenated` variable is now `Add a string to another string`. We can do exactly the same by assigning them with the concatenating assignment operator `.=`
+This code will display `Add a string to another string`. We can do exactly the same by assigning them with the concatenating assignment operator `.=`
 
 ```php
 $another_string = 'another_string';
@@ -99,8 +103,10 @@ $another_string = 'another_string';
 $concatenated = 'Add a string';
 $concatenated .= ' to ';
 $concatenated .= $another_string;
+
+echo $concatenated;
 ```
-The value of this `$concatenated` variable is also `Add a string to another string`.
+This code will also display `Add a string to another string`.
 
 ### Quotes Inside Strings
 You need to be aware that you can't use the same type of quote inside a string. The following will get you an error.
@@ -129,6 +135,7 @@ Another trick is by adding a backslash before the quotes `\"`. We call this "esc
 $double_quoted = "This \"is\" fine";
 echo $double_quoted.
 ```
+
 This code will display `This "is" fine` (without the backslashes). It doesn't produce errors because the quotes are escaped.
 
 The caracters `\` and `$` in double quoted strings need escaping as well, because they have a special meaning.
