@@ -64,7 +64,7 @@ echo $my_variable;
 
 This code will display `I want to learn PHP`.
 
-PHP skips over lines that start with two forward slashes `//` (as if they don't exist). This is called a "PHP comment". Use them to a add readable explanations to your code. You can see a PHP comment in the code above.
+PHP skips over lines that start with two forward slashes `//` (as if they don't exist). This is called a "PHP comment". Use them to a add explanations to your code. You can see a PHP comment in the code above.
 
 To recap
 
@@ -229,11 +229,13 @@ By adding an array key inside the square brackets you can access a value from a 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
 
-// Getting the first value
+// Getting the first value from the array.
 $first_value = $animals[0];
+
+echo "The first array value is {$first_value}";
 ```
 
-The value of the `$first_value` variable is `dog`.
+This will display `The first array value is dog`. Remember, PHP sees arrays without array keys as an array with numbered keys (starting from zero).
 
 #### Using Your Own Array Keys
 
@@ -284,7 +286,7 @@ $colors = array(
 // Getting the value for the 'sky' array key.
 $sky_color = $colors['sky'];
 
-echo 'The sky is {$sky_color}';
+echo "The sky is {$sky_color}";
 ```
 
 This code will display `the sky is blue`
