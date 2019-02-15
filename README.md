@@ -64,7 +64,7 @@ echo $my_variable;
 
 This code will display `I want to learn PHP`.
 
-PHP skips over lines that start with two forward slashes (as if they don't exist). This is called a "PHP comment". Use them to a add readable explanations to your code. You can see a PHP comment in the code above.
+PHP skips over lines that start with two forward slashes `//` (as if they don't exist). This is called a "PHP comment". Use them to a add readable explanations to your code. You can see a PHP comment in the code above.
 
 To recap
 
@@ -161,7 +161,7 @@ echo "Hello, {$my_variable}";
 This code will display `Hello, I want to learn PHP`.
 If it was a single quoted string it would still display `Hello, {$first_string}`.
 
-The curly brackets `{}` are optional (and also not displayed). But it's used to tell PHP "I am a variable that should be expanded".
+The curly brackets `{}` are optional (and also not displayed). It tells PHP "This is a variable that should be expanded". I reccomend to always use them.
 
 **Note**: It's important to know that the value of the expanded variable should be a string.
 
@@ -178,13 +178,13 @@ To recap
 ## Arrays
 Arrays are variables that allow us to store more than one value in a single variable. It takes any number of comma-separated `key` => `value` pairs as arguments. Let me explain what this means.
 
-This is an array with 3 `values` ( dog, cat and rabbit ) 
+This is an array with 3 `values` ( dog, cat and rabbit ) separated with commas
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-Because we didn't add any `keys` in this array PHP sees it like this.
+Because we didn't add any `array keys` in this array PHP sees it like this.
 
 ```php
 array(
@@ -194,7 +194,9 @@ array(
 );
 ```
 
-It adds the keys 0, 1 and 2 for us. This kind of array is called a "numerical" or "indexed" array because all the keys are all numbers.
+PHP adds the array keys 0, 1 and 2 for us. This kind of array is called a "numerical" or "indexed" array because **all the array keys** are all numbers.
+
+Array keys can either be a (whole) number, or a string. In PHP we call whole numbers (without any decimal part) "integers"
 
 **Note**: Most programming languages start counting from 0.
 
@@ -222,7 +224,7 @@ As you can see, it was added at the end.
 
 #### Accessing Values from a Numerical Array
 
-By adding a key (number) inside the square brackets you can access a value from a numerical array. 
+By adding an array key inside the square brackets you can access a value from a numerical array. 
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
@@ -235,7 +237,7 @@ The value of the `$first_value` variable is `dog`.
 
 #### Using Your Own Array Keys
 
-The numerical array only has numbered keys, but you can also create arrays with your own specific keys.
+As we've leared array keys can be integers or strings. Let's see how an array with string array keys looks like.
 
 ```php
 $colors = array( 
@@ -243,12 +245,12 @@ $colors = array(
 	'sky'   => 'blue',
 );
 ```
-
-This is called an "Associative array". It's an array where each key has its own specific value.
+This is an array with array keys "grass" and "sky".
+If **all or one** array key is a string we call it an  "associative array".
 
 #### Adding Values to an Associative Array
 
-By adding a specific key (string) inside the square brackets you can add a new value to the array.
+By adding a specific array key (string) inside the square brackets you can add a new value to the array.
 
 ```php
 $colors = array( 
@@ -256,11 +258,11 @@ $colors = array(
 	'sky'   => 'blue',
 );
 
-// Adding a value for the 'firetruck' key
+// Adding a value for the 'firetruck' array key
 $colors['firetruck'] = 'red';
 ```
 
-This is the value of the `$colors` variable after adding a value for the `firetruck` key
+This is the value of the `$colors` variable after adding a value for the `firetruck` array key
 
 ```php
 array( 
@@ -271,7 +273,7 @@ array(
 ```
 #### Accessing Values from a Associative Array
 
-By adding a key (string) inside the square brackets you can access a value from a associative array.
+By adding an array key (string) inside the square brackets you can access a value from a associative array.
 
 ```php
 $colors = array( 
@@ -279,7 +281,10 @@ $colors = array(
 	'sky'   => 'blue',
 );
 
-echo 'The sky is ' . $colors['sky'];
+// Getting the value for the 'sky' array key.
+$sky_color = $colors['sky'];
+
+echo 'The sky is {$sky_color}';
 ```
 
 This code will display `the sky is blue`
