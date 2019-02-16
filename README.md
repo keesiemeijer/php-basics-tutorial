@@ -196,7 +196,8 @@ array(
 
 PHP adds the array keys 0, 1 and 2 for us. This kind of array is called a "numerical" or "indexed" array because **all the array keys** are all numbers.
 
-Array keys can either be a (whole) number, or a string. In PHP we call whole numbers (without any decimal part) "integers"
+* Array keys can either be (whole) numbers (starting from zero), or strings. In PHP we call whole numbers (without any decimal part) "integers".
+* Array values can be of any type. There ary many types of values. You already know "string", "number", and now "array". More types of values are explained later.
 
 **Note**: Most programming languages start counting from 0.
 
@@ -252,7 +253,7 @@ If **all or one** array key is a string we call it an  "associative array".
 
 #### Adding Values to an Associative Array
 
-By adding a specific array key (string) inside the square brackets you can add a new value to the array.
+By adding a unique array key (string) inside the square brackets you can add a new value to the array.
 
 ```php
 $colors = array( 
@@ -292,9 +293,45 @@ echo "The sky is {$sky_color}";
 This code will display `the sky is blue`
 
 #### Updating Array Values.
+Use the array key you want to update between the square brackets to update array values.
+
+```php
+$colors = array( 
+	'grass' => 'green',
+	'sky'   => 'blue',
+);
+
+// Updating the sky array key value
+$colors['sky'] = 'gray';
+
+echo "The sky is {$colors['sky']}";
+```
+
+This code will display `the sky is gray`
+
+### Arrays Containing Arrays
+Array keys can also have arrays as its value. Let's see how that looks like.
+
+```php
+$animals = array(
+	'dog' => array(
+		'name' => 'Max',
+		'age'  => 3,
+	),
+	'cat' => array(
+		'name' => 'Lucy',
+		'age'  => 8,
+	),
+);
+```
+
+Arrays containing other arrays are called "multidimensional" arrays.
+
+#### Accessing Values from a Multidimensional Array
 (Todo)
 
-(Todo) Multidimensional arrays — An array containing one or more arrays within itself.
+#### Adding Values to a Multidimensional Array
+(Todo)
 
 ## Loops
 (Todo)
