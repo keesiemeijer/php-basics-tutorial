@@ -225,7 +225,7 @@ As you can see, it was added at the end.
 
 #### Accessing Values from a Numerical Array
 
-By adding an existing array key inside the square brackets you can access a value from a numerical array. 
+Use an existing array key inside the square brackets to access a value from a numerical array. 
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
@@ -253,7 +253,7 @@ If **all or one** array key is a string we call it an  "associative array".
 
 #### Adding Values to an Associative Array
 
-By adding a unique array key (string) inside the square brackets you can add a new value to the array.
+Use a unique new array key (string) inside the square brackets to add a new value to the array.
 
 ```php
 $colors = array( 
@@ -276,7 +276,7 @@ array(
 ```
 #### Accessing Values from a Associative Array
 
-By adding an existing array key (string) inside the square brackets you can access a value from an associative array.
+Use an existing array key (string) inside the square brackets to access a value from an associative array.
 
 ```php
 $colors = array( 
