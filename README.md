@@ -178,7 +178,7 @@ To recap
 ## Arrays
 Arrays are variables that allow us to store more than one value in a single variable. Array `elements` consist of `key` => `value` pairs separated by commas. Let me explain what this means.
 
-This is an array with 3 `values` ( dog, cat and rabbit ) separated by commas.
+This is an array with 3 string `values` ( dog, cat and rabbit ) separated by commas.
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
