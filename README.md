@@ -276,7 +276,7 @@ array(
 ```
 #### Accessing Values from a Associative Array
 
-By adding an array key (string) inside the square brackets you can access a value from a associative array.
+By adding an existing array key (string) inside the square brackets you can access a value from an associative array.
 
 ```php
 $colors = array( 
@@ -293,7 +293,7 @@ echo "The sky is {$sky_color}";
 This code will display `the sky is blue`
 
 #### Updating Array Values.
-Use the array key you want to update between the square brackets to update array values.
+Use an existing array key inside the square brackets to update array values.
 
 ```php
 $colors = array( 
