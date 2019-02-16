@@ -211,7 +211,7 @@ By adding empty "square brackets" `[]` after the variable you can add a new valu
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
 
-// Adding a value
+// Adding a value with empty square brackets
 $animals[] = 'chicken';
 ```
 
@@ -225,7 +225,7 @@ array(
 	3 => 'chicken',
 );
 ```
-As you can see, it was added at the end.
+As you can see, it was added at the end. We can now say the last array `element` has array `key` "3" with `value` "chicken".
 
 #### Accessing Values from a Numerical Array
 
