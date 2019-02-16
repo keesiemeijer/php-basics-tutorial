@@ -225,7 +225,7 @@ As you can see, it was added at the end.
 
 #### Accessing Values from a Numerical Array
 
-By adding an array key inside the square brackets you can access a value from a numerical array. 
+By adding an existing array key inside the square brackets you can access a value from a numerical array. 
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
@@ -261,7 +261,7 @@ $colors = array(
 	'sky'   => 'blue',
 );
 
-// Adding a value for the 'firetruck' array key
+// Adding the value "red" to the new 'firetruck' array key
 $colors['firetruck'] = 'red';
 ```
 
