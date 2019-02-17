@@ -184,8 +184,8 @@ In most programming languages, an array is a collection of elements. Arrays allo
 
 Here's how an array is described in PHP lingo.
 
-* An `array` consists of `elements` separated by commas
-* An `array element` consists of a `key` and a `value`
+* An `array` has `elements` separated by commas
+* An `array element` has a `key` and a `value`
 
 Let me explain what this means.
 
@@ -195,7 +195,7 @@ This is an array with 3 array elements (dog, cat and rabbit), separated by comma
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-But where are the array keys? We are allowed to leave the keys out. PHP sees arrays without keys as if it has numbered array keys. In this example the array keys are 0, 1 and 2.
+But where are the array keys? We are allowed to leave the keys out because PHP sees arrays without keys as if it has numbered array keys. In this example the array keys are 0, 1 and 2.
 
 ```php
 $animals = array(
