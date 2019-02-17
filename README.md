@@ -71,7 +71,7 @@ To recap
 
 * Variables hold values
 * Variables can be reused throughout the code
-* Values are added (assigned) to a variable with the "equals" sign `=`
+* Values are assigned to variables with the "equals" sign
 * A string is a series of characters inside quotes
 * PHP comments start with two forward slashes
 * PHP comments are not displayed
