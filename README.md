@@ -44,7 +44,7 @@ Let's start with a thing called "variables". In computer programming, a variable
 
 As you can see, the `$my_variable` variable has a value of `I want to learn PHP`.
 
-Values are "assigned" (added) to variables with the "equals" sign `=`
+Values are assigned (added) to variables with the "equals" sign `=`
 
 In PHP a "string" is a series of characters inside quotes. With this information we can say "The `$my_variable` variable contains a string". More about strings later.
 
