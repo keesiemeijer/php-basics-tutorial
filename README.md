@@ -188,13 +188,13 @@ Here's how an array is described in PHP lingo.
 
 Let me explain what this means.
 
-This is an array with 3 strings (dog, cat and rabbit), separated by commas.
+This is an array with 3 array elements (dog, cat and rabbit strings), separated by commas.
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-There are however no array `keys` in this array. This is allowed because PHP sees this array as if it has array keys 0, 1 and 2.
+But where are the array keys? We are allowed to leave the keys out because PHP sees this array as if it has numbered array keys 0, 1 and 2.
 
 ```php
 $animals = array(
@@ -204,7 +204,7 @@ $animals = array(
 );
 ``` 
 
-In PHP lingo we can now say "The first `element` of the `$animals` array (above) has `key` 0 with `value` dog."
+In PHP lingo we can now say "The first `element` of the `$animals` array has array `key` 0 with a `value` of dog."
 
 **Note**: Most programming languages start counting from 0.
 
