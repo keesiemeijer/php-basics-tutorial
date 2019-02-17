@@ -207,7 +207,7 @@ $animals = array(
 
 In PHP lingo we can now say "The first `element` of the `$animals` array has `array key` 0 with the `array value` dog."
 
-Array keys are separated from it's value with `=>`
+You can see that `array keys` come before `=>` and `array values` after it.
 
 **Note**: Most programming languages start counting from 0.
 
@@ -216,7 +216,7 @@ Array keys are separated from it's value with `=>`
 
 **Note**: In PHP (and in math) we call whole numbers (without any decimal part) "integers".
 
-Arrays with no values (elements) are also allowed. We call this an "empty array".
+Arrays with no elements are also allowed. We call this an "empty array".
 
 ```php
 $empty_array = array();
