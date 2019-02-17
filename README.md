@@ -23,6 +23,7 @@ As you can see, the PHP code started and ended with the opening and closing PHP 
 **Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If it's missing PHP will give you an error and stops with processing the rest of the code. You can see the ending semicolon in the code above.
 
 To recap:
+
 * PHP files have a `.php` file extension
 * PHP files can contain PHP and HTML
 * PHP code needs to be inside opening and closing PHP tags.
@@ -176,15 +177,17 @@ To recap
 * The value of the expanded variable should be a string
 
 ## Arrays
-Arrays are variables that allow us to store more than one value in a single variable. Array `elements` consist of `key` => `value` pairs separated by commas. Let me explain what this means.
+Arrays allow us to store more than one value in a single variable.
 
-This is an array with 3 string `values` ( dog, cat and rabbit ) separated by commas.
+Array elements consist of `key` => `value` pairs separated by commas. Let me explain what this means.
+
+This is an array with 3 string `values` dog, cat and rabbit, separated by commas.
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-Because we didn't add any array `keys` in this array PHP sees it like this.
+We didn't add any array `keys` in this array. This is allowed because PHP will see it like this.
 
 ```php
 array(
@@ -194,18 +197,26 @@ array(
 );
 ```
 
-PHP adds the array keys 0, 1 and 2 for us (how nice!). The first array `element` has array `key` "0" with `value` "dog".
+PHP adds the array keys 0, 1 and 2 for us (how nice!). 
 
-This kind of array is called a "numerical" or "indexed" array because **all the array keys** are all numbers.
-
-* Array keys can either be (whole) numbers (starting from zero), or strings. 
-* Array values can be of any type. There ary many types of values. You already know "string", "number", and now "array". More types of values are explained later.
+The first array `element` of the `$animals` variable (above) has array `key` "0" with `value` "dog".
 
 **Note**: Most programming languages start counting from 0.
 
+* `Array keys` can either be (whole) numbers (starting from zero), or strings. 
+* `Array values` can be of any type. There are many types of values. You already know "string", "number", and now "array". More value types are explained later.
+
 **Note**: In PHP (and in math) we call whole numbers (without any decimal part) "integers".
 
-#### Adding Values to a Numerical Array
+Arrays with no values (elements) are also allowed. We call this an "empty array".
+
+```php
+$empty_array = array();
+```
+
+Arrays with **only** numbered keys are called "numerical" or "indexed" arrays 
+
+#### Adding Values to Numerical Arrays
 By adding empty "square brackets" `[]` after the variable you can add a new value to the array.
 
 ```php
@@ -227,7 +238,7 @@ array(
 ```
 As you can see, it was added at the end. We can now say the last array `element` has array `key` "3" with `value` "chicken".
 
-#### Accessing Values from a Numerical Array
+#### Accessing Values from Numerical Arrays
 
 Use an existing array key inside the square brackets to access a value from a numerical array. 
 
@@ -256,9 +267,9 @@ The first array `element` has array `key` "grass" with `value` "green".
 
 If **all or one** array key is a string we call it an  "associative array".
 
-#### Adding Values to an Associative Array
+#### Adding Values to Associative Arrays
 
-Use a unique new array key (string) inside the square brackets to add a new value to the array.
+Use a unique array key inside square brackets to add a new value to the array.
 
 ```php
 $colors = array( 
@@ -266,7 +277,7 @@ $colors = array(
 	'sky'   => 'blue',
 );
 
-// Adding a value to the 'firetruck' array key
+// Adding a value to the (new) 'firetruck' key
 $colors['firetruck'] = 'red';
 ```
 
@@ -281,9 +292,9 @@ array(
 ```
 
 You can see it was added.
-#### Accessing Values from a Associative Array
+#### Accessing Values from Associative Arrays
 
-Use an existing array key (string) inside the square brackets to access a value from an associative array.
+Use an existing array key inside square brackets to access a value from an associative array.
 
 ```php
 $colors = array( 
@@ -300,7 +311,7 @@ echo "The sky is {$sky_color}";
 This code will display `the sky is blue`
 
 #### Updating Array Values.
-Use an existing array key inside the square brackets to update array values.
+Use an existing array key inside square brackets to update array values.
 
 ```php
 $colors = array( 
@@ -316,8 +327,8 @@ echo "The sky is {$colors['sky']}";
 
 This code will display `the sky is gray`
 
-### Arrays Containing Arrays
-Array keys can also have arrays as its value. Let's see how that looks like.
+#### Arrays Containing Arrays
+Array keys can also have arrays as their value. Let's see how that looks like.
 
 ```php
 $animals = array(
@@ -332,12 +343,46 @@ $animals = array(
 );
 ```
 
-Arrays containing other arrays are called "multidimensional" arrays.
+Arrays containing other arrays are called "multidimensional" arrays. The arrays inside an array are called "nested" arrays.
+
+#### Adding Values to a Nested Array
+Use an existing array key inside square brackets to target the nested array (you want to update). Add square brackets with a unique new key right after it to add a value. 
+
+
+```php
+$animals = array(
+	'dog' => array(
+		'name' => 'Max',
+		'age'  => 3,
+	),
+	'cat' => array(
+		'name' => 'Lucy',
+		'age'  => 8,
+	),
+);
+ 
+// Update the "dog" array with a new array element.
+$animals['dog']['toy'] = 'tennisball';
+```
+
+This is the value of the `$animals` varable after updating.
+
+```php
+array(
+	'dog' => array(
+		'name' => 'Max',
+		'age'  => 3,
+		'toy'  => 'tennisbal',
+	),
+	'cat' => array(
+		'name' => 'Lucy',
+		'age'  => 8,
+	),
+);
+```
+As you can see the new array key "toy" with the value "tennisball" is added to the "dog" array.
 
 #### Accessing Values from a Multidimensional Array
-(Todo)
-
-#### Adding Values to a Multidimensional Array
 (Todo)
 
 ## Loops
