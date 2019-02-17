@@ -36,13 +36,13 @@ To recap:
 
 ## Variables.
 
-Let's start with a thing called "variables". In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign `$` followed by the name of the variable. After declaring a variable it can be reused throughout the code. 
+Let's start with a thing called "variables". In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign `$` followed by the name of the variable. After creating a variable it can be reused throughout the code. 
 
 ```php
 <?php $my_variable = 'I want to learn PHP'; ?>
 ```
 
-As you can see, the `$my_variable` variable has a value of `I want to learn PHP`. We assigned this value to the variable with the equals sign `=`
+As you can see, the `$my_variable` variable has a value of `I want to learn PHP`. We assigned (added) this value to the variable with the "equals" sign `=`
 
 In PHP a "string" is a series of characters inside quotes. With this information we can say "The `$my_variable` variable contains a string". More about strings later.
 
@@ -71,6 +71,7 @@ To recap
 
 * Variables hold values
 * Variables can be reused throughout the code
+* Values are added (assigned) to a variable with the "equals" sign `=`
 * A string is a series of characters inside quotes
 * PHP comments start with two forward slashes
 * PHP comments are not displayed
