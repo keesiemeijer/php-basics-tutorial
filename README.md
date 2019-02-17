@@ -36,7 +36,7 @@ To recap:
 
 ## Variables.
 
-Let's start with a thing called "variables". In computer programming, a variable can hold a value. Variables in PHP start with a dollar sign `$` followed by the name of the variable. After creating a variable it can be reused throughout the code. 
+Let's start with a thing called "variables". In most programming languages, a variable can hold a value. Variables in PHP start with a dollar sign `$` followed by the name of the variable. After creating a variable it can be reused throughout the code. 
 
 ```php
 <?php $my_variable = 'I want to learn PHP'; ?>
@@ -180,7 +180,7 @@ To recap
 * The value of the expanded variable should be a string
 
 ## Arrays
-In computer programming, an array is a collection of elements. Arrays allow us to store more than one value in a single variable.
+In most programming languages, an array is a collection of elements. Arrays allow us to store more than one value in a single variable.
 
 Here's how an array is described in PHP lingo.
 
