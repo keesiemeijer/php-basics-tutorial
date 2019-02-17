@@ -195,7 +195,7 @@ This is an array with 3 array elements (dog, cat and rabbit strings), separated 
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-But where are the array keys? We are allowed to leave the keys out because PHP sees this array as if it has numbered array keys 0, 1 and 2.
+But where are the array keys? We are allowed to leave the keys out because PHP sees this array as if it has numbered array keys (0, 1 and 2).
 
 ```php
 $animals = array(
@@ -205,7 +205,7 @@ $animals = array(
 );
 ``` 
 
-In PHP lingo we can now say "The first `element` of the `$animals` array has array `key` 0 with a `value` of dog."
+In PHP lingo we can now say "The first `element` of the `$animals` array has `array key` 0 with the `array value` of dog."
 
 **Note**: Most programming languages start counting from 0.
 
