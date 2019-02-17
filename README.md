@@ -189,7 +189,7 @@ Here's how an array is described in PHP lingo.
 
 Let me explain what this means.
 
-This is an array with 3 array elements (dog, cat and rabbit), separated by commas.
+This is an array with 3 array elements (dog, cat and rabbit separated by commas).
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
