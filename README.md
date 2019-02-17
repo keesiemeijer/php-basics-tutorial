@@ -195,7 +195,7 @@ This is an array with 3 array elements (dog, cat and rabbit separated by commas)
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-But where are the array keys? PHP sees arrays without keys as if it has numbered array keys. In this example the array keys are 0, 1 and 2.
+But where are the array keys? PHP sees arrays without keys as if it has numbered array keys. In this example PHP sees it like this (with array keys are 0, 1 and 2).
 
 ```php
 $animals = array(
