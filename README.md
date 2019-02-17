@@ -189,13 +189,13 @@ Here's how an array is described in PHP lingo.
 
 Let me explain what this means.
 
-This is an array with 3 array elements (dog, cat and rabbit strings), separated by commas.
+This is an array with 3 array elements (dog, cat and rabbit), separated by commas.
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-But where are the array keys? We are allowed to leave the keys out because PHP sees this array as if it has numbered array keys (0, 1 and 2).
+But where are the array keys? We are allowed to leave the keys out. PHP sees arrays without keys as if it has numbered array keys. In this example the array keys are 0, 1 and 2.
 
 ```php
 $animals = array(
