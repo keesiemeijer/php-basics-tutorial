@@ -204,7 +204,7 @@ $animals = array(
 );
 ``` 
 
-In PHP lingo we can now say "The first `element` of the `$animals` variable (above) has array `key` 0 with `value` dog."
+In PHP lingo we can now say "The first `element` of the `$animals` array (above) has `key` 0 with `value` dog."
 
 **Note**: Most programming languages start counting from 0.
 
