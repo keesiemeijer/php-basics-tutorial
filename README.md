@@ -182,15 +182,19 @@ To recap
 ## Arrays
 Arrays allow us to store more than one value in a single variable.
 
-Array elements consist of `key` => `value` pairs separated by commas. Let me explain what this means.
+Here's how an array is described in PHP lingo.
+* Array `elements` are separated by commas
+* An array element consists of a `key` and a `value`
 
-This is an array with 3 string `values` dog, cat and rabbit, separated by commas.
+Let me explain what this means.
+
+This is an array with 3 strings (dog, cat and rabbit), separated by commas.
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-We didn't add any array `keys` in this array. This is allowed because PHP will see it like this.
+There are no any array `keys` in this array. This is allowed because PHP will see it like this.
 
 ```php
 array(
@@ -200,9 +204,9 @@ array(
 );
 ```
 
-PHP adds the array keys 0, 1 and 2 for us (how nice!). 
+PHP adds the array keys 0, 1 and 2 for us (how nice!).  
 
-The first array `element` of the `$animals` variable (above) has array `key` "0" with `value` "dog".
+We can say "The first array `element` of the `$animals` variable (above) has array `key` 0 with `value` dog."
 
 **Note**: Most programming languages start counting from 0.
 
