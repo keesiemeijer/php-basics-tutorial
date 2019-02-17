@@ -183,7 +183,7 @@ To recap
 In computer programming, an array is a collection of elements. Arrays allow us to store more than one value in a single variable.
 
 Here's how an array is described in PHP lingo.
-* An array consists of elements separated by commas
+* An `array` consists of elements separated by commas
 * An array `element` consists of a `key` and a `value`
 
 Let me explain what this means.
