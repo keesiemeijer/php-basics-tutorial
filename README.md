@@ -46,7 +46,7 @@ As you can see, the `$my_variable` variable has a value of `I want to learn PHP`
 
 Values are assigned (added) to variables with the "equals" sign `=`
 
-In PHP a "string" is a series of characters inside quotes. With this information we can say "The `$my_variable` variable contains a string". More about strings later.
+In PHP a "string" is a series of characters inside quotes. With this information we can say "The value of the `$my_variable` variable is a string". More about strings later.
 
 Let's say we wanted to display the value of a variable in a web page. We can use the PHP `echo` function for this. (Functions do all sorts of things, but more on that later)
 
