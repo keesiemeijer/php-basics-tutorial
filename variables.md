@@ -45,6 +45,8 @@ To recap
 ---
 
 <nav>
-Previous chapter: <a href="https://keesiemeijer.github.io/php-basics-tutorial">Introductions</a>
-Next chapter: <a href="https://keesiemeijer.github.io/php-basics-tutorial/strings">Strings</a>
+  <ul>
+    <li>Previous chapter: <a href="https://keesiemeijer.github.io/php-basics-tutorial">Introductions</a></li>
+    <li>Next chapter: <a href="https://keesiemeijer.github.io/php-basics-tutorial/strings">Strings</a></li>
+  </ul>
 </nav>
