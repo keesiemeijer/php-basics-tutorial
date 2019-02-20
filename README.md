@@ -44,4 +44,6 @@ To recap:
 
 ---
 
-- Next chapter: [Variables](https://keesiemeijer.github.io/php-basics-tutorial/variables)
+<div class="navigation">
+Next chapter: [Variables](https://keesiemeijer.github.io/php-basics-tutorial/variables)
+</div>
