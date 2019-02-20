@@ -76,7 +76,7 @@ If it was a single quoted string it would still display `Hello, {$first_string}`
 
 The curly brackets `{}` are optional (and also not displayed). It tells PHP "This is a variable that should be expanded". I recommend to always use them because they can prevent errors in some situations. 
 
-**Note**: It's important to know that the value of the expanded variable should be a string.
+**Note**: The value of the expanded variable should be a string or a number.
 
 To recap
 
@@ -86,4 +86,4 @@ To recap
 * The wrong type of quote in a string can cause errors
 * You can escape quotes.
 * Variables can be inserted in a double quoted string
-* The value of the expanded variable should be a string
+* The value of the expanded variable should be a string or a number
