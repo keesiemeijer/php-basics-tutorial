@@ -79,7 +79,7 @@ To recap
 * PHP comments are not displayed
 
 ## Strings.
-As we have already learned, a string is a series of characters inside single `'` or double `"` quotes.
+As you've seen already, a string is a series of characters inside single `'` or double `"` quotes.
 
 * A string with single quotes is called a `single quoted string`.
 * A string with double quotes is called a `double quoted string`.
