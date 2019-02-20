@@ -53,27 +53,15 @@ $single_quoted = 'This "is" fine';
 $double_quoted = "This 'is' fine";
 ```
 
-Or use concatenation.
+Another trick is by adding a backslash before the quotes `\"`. In PHP this is called "escaping". 
 
 ```php
-$concatenated  = 'This' . " 'is' " . 'fine, but less readable';
-```
-
-Another trick is by adding a backslash before the quotes `\"`. In PHP this is called "escaping". Escaping special characters with a backslash can only be done in double quoted strings.
-
-```php
+$single_quoted = 'This \'is\' fine';
 $double_quoted = "This \"is\" fine";
 echo $double_quoted.
 ```
 
 This code will display `This "is" fine` (without the backslashes). It doesn't produce errors because the quotes are escaped.
-
-The caracters `\` and `$` in double quoted strings need escaping as well, because they have a special meaning.
-
-```php
-echo "this is a quote \", this is a backslash \\ and this is a dollar sign \$";
-```
-This code will display `this is a quote ", this is a backslash \ and this is a dollar sign $`
 
 ### Variables inside strings
 Double quoted strings allow you to insert variables inside of them. The variable will be (what we call) "expanded" inside the string.
@@ -84,11 +72,11 @@ echo "Hello, {$my_variable}";
 ```
 
 This code will display `Hello, I want to learn PHP`.
-If it was a single quoted string it would still display `Hello, {$first_string}`.
+If it was a single quoted string it would still display `Hello, {$my_variable}`.
 
-The curly brackets `{}` are optional (and also not displayed). It tells PHP "This is a variable that should be expanded". I reccomend to always use them.
+The curly brackets `{}` are optional (and also not displayed). It tells PHP "This is a variable that should be expanded". I recommend to always use them because they can prevent errors in some situations. 
 
-**Note**: It's important to know that the value of the expanded variable should be a string.
+**Note**: The value of the expanded variable should be a string or a number.
 
 To recap
 
@@ -96,6 +84,6 @@ To recap
 * You can add strings together with concatenation (separating them with a dot)
 * We can also do this with the concatenating assignment operator `.=`
 * The wrong type of quote in a string can cause errors
-* You can escape quotes and special characters with a backslash inside a double quoted string.
+* You can escape quotes.
 * Variables can be inserted in a double quoted string
-* The value of the expanded variable should be a string
+* The value of the expanded variable should be a string or a number
