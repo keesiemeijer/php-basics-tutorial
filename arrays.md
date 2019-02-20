@@ -217,4 +217,8 @@ As you can see the new `toy` key with the value `tennisball` is added to the `do
 
 ---
 
-- Previous chapter: [Strings](https://keesiemeijer.github.io/php-basics-tutorial/strings)
+<nav>
+  <ul>
+    <li>Previous chapter: <a href="https://keesiemeijer.github.io/php-basics-tutorial/strings">Strings</a></li>
+  </ul>
+</nav>
