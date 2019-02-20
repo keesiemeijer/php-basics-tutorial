@@ -74,7 +74,7 @@ echo "Hello, {$my_variable}";
 This code will display `Hello, I want to learn PHP`.
 If it was a single quoted string it would still display `Hello, {$first_string}`.
 
-The curly brackets `{}` are optional (and also not displayed). It tells PHP "This is a variable that should be expanded". I recommend to always use them. It can prevent errors in some situations. 
+The curly brackets `{}` are optional (and also not displayed). It tells PHP "This is a variable that should be expanded". I recommend to always use them. Using the curly brackets can prevent errors in some situations. 
 
 **Note**: It's important to know that the value of the expanded variable should be a string.
 
