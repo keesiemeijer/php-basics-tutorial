@@ -41,3 +41,6 @@ To recap
 * A string is a series of characters inside quotes
 * PHP comments start with two forward slashes
 * PHP comments are not displayed
+
+* Previous chapter: [Introduction](https://keesiemeijer.github.io/php-basics-tutorial)
+* Next chapter: [Strings](https://keesiemeijer.github.io/php-basics-tutorial/strings)
