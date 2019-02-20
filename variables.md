@@ -42,6 +42,7 @@ To recap
 * PHP comments start with two forward slashes
 * PHP comments are not displayed
 
-
+<span>
 * Previous chapter: [Introduction](https://keesiemeijer.github.io/php-basics-tutorial)
 * Next chapter: [Strings](https://keesiemeijer.github.io/php-basics-tutorial/strings)
+</span>
