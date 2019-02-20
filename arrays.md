@@ -214,3 +214,7 @@ As you can see the new `toy` key with the value `tennisball` is added to the `do
 
 #### Accessing Values from a Multidimensional Array
 (Todo)
+
+---
+
+- Previous chapter: [Variables](https://keesiemeijer.github.io/php-basics-tutorial/strings)
