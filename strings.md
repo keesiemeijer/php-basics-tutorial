@@ -90,5 +90,5 @@ To recap
 
 ---
 
-- Previous chapter: [Variables](https://keesiemeijer.github.io/variables)
+- Previous chapter: [Variables](https://keesiemeijer.github.io/php-basics-tutorial/variables)
 - Next chapter: [Arrays](https://keesiemeijer.github.io/php-basics-tutorial/arrays)
