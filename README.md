@@ -42,8 +42,6 @@ To recap:
 ## Editing PHP Files
 (Todo)
 
-## Loops
-(Todo)
+---
 
-## Functions
-(Todo)
+- Next chapter: [Variables](https://keesiemeijer.github.io/php-basics-tutorial/variables)
