@@ -90,5 +90,9 @@ To recap
 
 ---
 
-- Previous chapter: [Variables](https://keesiemeijer.github.io/php-basics-tutorial/variables)
-- Next chapter: [Arrays](https://keesiemeijer.github.io/php-basics-tutorial/arrays)
+<nav>
+  <ul>
+    <li>Previous chapter: <a href="https://keesiemeijer.github.io/php-basics-tutorial/variables">Variables</a></li>
+    <li>Next chapter: <a href="https://keesiemeijer.github.io/php-basics-tutorial/arrays">Arrays</a></li>
+  </ul>
+</nav>
