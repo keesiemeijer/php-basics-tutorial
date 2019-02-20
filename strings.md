@@ -72,7 +72,7 @@ echo "Hello, {$my_variable}";
 ```
 
 This code will display `Hello, I want to learn PHP`.
-If it was a single quoted string it would still display `Hello, {$first_string}`.
+If it was a single quoted string it would still display `Hello, {$my_variable}`.
 
 The curly brackets `{}` are optional (and also not displayed). It tells PHP "This is a variable that should be expanded". I recommend to always use them because they can prevent errors in some situations. 
 
