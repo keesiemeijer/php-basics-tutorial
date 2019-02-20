@@ -87,3 +87,8 @@ To recap
 * You can escape quotes.
 * Variables can be inserted in a double quoted string
 * The value of the expanded variable should be a string or a number
+
+---
+
+- Previous chapter: [Variables](https://keesiemeijer.github.io/variables)
+- Next chapter: [Arrays](https://keesiemeijer.github.io/php-basics-tutorial/arrays)
