@@ -14,19 +14,23 @@ It's recommended you go through chapters in sequense. Each chapter uses informat
 
 ## Introduction
 
-Let's start with wat a PHP file is. A PHP file contains PHP tags and has the file extension `.php`. When PHP reads a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is actual PHP code. The great thing about PHP files is that they can contain HTML (and other languages) as well. 
+PHP files are nothing more than simple text files with the file extension `.php`. When PHP reads a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is actual PHP code. The great thing about PHP files is that they can contain HTML (and other programming languages) as well. 
 
-Here is a simple example of a web page with some HTML and PHP code.
+Here is an example of the contents of a PHP file for a web page.
 
 ```php
+<!DOCTYPE html>
 <html>
-	<body>
-		<p><?php echo 'Welcome to my web page'; ?></p>
-	</body>
+    <head>
+        <title>My first web page</title>
+    </head>
+    <body>
+        <p><?php echo 'Welcome to my web page'; ?></p>
+    </body>
 </html>
 ```
 
-As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the file only contains PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
+As you can see, it contains PHP and HTML code. the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the file only contains PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
 **Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If it's missing PHP will give you an error. It also stops with processing the rest of the code in the file. You can see an ending semicolon in the code above.
 
