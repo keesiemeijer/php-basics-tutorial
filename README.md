@@ -28,7 +28,9 @@ Here is a simple example of a web page with some HTML and PHP code.
 
 As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the file only contains PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
-**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If it's missing PHP will give you an error and stops with processing the rest of the code. You can see the ending semicolon in the code above.
+**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If it's missing PHP will give you an error and stops with the processing of the rest of the code. You can see the ending semicolon in the code above.
+
+Errors are bound to happen, even to the most experienced developers. Don't worry about it. In this tutorial many common errors are explained. 
 
 To recap:
 
@@ -38,6 +40,7 @@ To recap:
 * You only need the opening PHP tag if the file contains only PHP code
 * A semicolon is needed after each PHP statement
 * PHP stops working if there's an error
+* Errors are bound to happen
 
 ## Editing PHP Files
 (Todo)
