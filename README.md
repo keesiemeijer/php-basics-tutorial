@@ -14,7 +14,7 @@ It's recommended you go through chapters in sequense. Each chapter uses informat
 
 ## Introduction
 
-A PHP file contains PHP tags and has the file extension `.php`. When PHP reads a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is actual PHP code. The great thing about a PHP file is that it can contain HTML (and other languages) as well. 
+Let's start with wat a PHP file is. A PHP file contains PHP tags and has the file extension `.php`. When PHP reads a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is actual PHP code. The great thing about a PHP file is that it can contain HTML (and other languages) as well. 
 
 Here is a simple example of a web page with some HTML and PHP code.
 
@@ -28,7 +28,7 @@ Here is a simple example of a web page with some HTML and PHP code.
 
 As you can see, the PHP code started and ended with the opening and closing PHP tags `<?php` and `?>`. If the file only contains PHP code you can just use the opening `<?php` PHP tag at the top of the file and leave the closing PHP tag `?>` altogether.
 
-**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If it's missing PHP will give you an error and stops with the processing of the rest of the code. You can see the ending semicolon in the code above.
+**Note**: PHP requires a semicolon (`;`) at the end of each PHP statement. If it's missing PHP will give you an error. It also stops with processing the rest of the code in the file. You can see an ending semicolon in the code above.
 
 Errors are bound to happen, even to the most experienced developers. Don't worry about it. In this tutorial many common errors are explained. 
 
