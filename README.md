@@ -14,7 +14,7 @@ It's recommended you go through chapters in sequense. Each chapter uses informat
 
 ## Introduction
 
-Let's start with wat a PHP file is. A PHP file contains PHP tags and has the file extension `.php`. When PHP reads a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is actual PHP code. The great thing about a PHP file is that it can contain HTML (and other languages) as well. 
+Let's start with wat a PHP file is. A PHP file contains PHP tags and has the file extension `.php`. When PHP reads a PHP file, it searches for opening and closing PHP tags `<?php` and `?>`. This tells PHP the text inside the tags is actual PHP code. The great thing about a PHP files is that it can contain HTML (and other languages) as well. 
 
 Here is a simple example of a web page with some HTML and PHP code.
 
