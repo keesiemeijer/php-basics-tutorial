@@ -6,6 +6,7 @@ In this tutorial you learn the basic concepts of the PHP language and its termin
 
 It's recommended you go through the chapters in sequence. Each chapter uses information mentioned in the former chapters.
 
+1. [Introduction](https://keesiemeijer.github.io/php-basics-tutorial)
 1. [Variables](https://keesiemeijer.github.io/php-basics-tutorial/variables)
 2. [Strings](https://keesiemeijer.github.io/php-basics-tutorial/strings)
 3. [Arrays](https://keesiemeijer.github.io/php-basics-tutorial/arrays)
