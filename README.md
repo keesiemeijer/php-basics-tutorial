@@ -21,7 +21,7 @@ PHP files are nothing more than simple text files with the file extension `.php`
 
 Here is an example of the contents of a PHP file for a web page.
 
-```html
+```php
 <!DOCTYPE html>
 <html>
     <head>
