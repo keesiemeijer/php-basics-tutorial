@@ -2,9 +2,9 @@
 
 PHP is a popular programming language that is especially used for web development.
 
-In this tutorial you learn the basic concepts of the PHP language and its terminology. It's assumed the reader has little to no knowledge of PHP or any other programming languages.
+In this tutorial you learn the basic concepts of the PHP language and its terminology. It's assumed the reader has little to no knowledge of PHP (or other programming languages). It doesn't go in depth into the PHP language. It's a starting point for people just starting out in the world of PHP. The chapters are kept small and to the point.
 
-This tutorial has 5 chapters
+It's recommended you go through chapters in sequense. Each chapter uses information learned in former chapters.
 
 * [Variables](https://keesiemeijer.github.io/php-basics-tutorial/variables)
 * [Strings](https://keesiemeijer.github.io/php-basics-tutorial/strings)
