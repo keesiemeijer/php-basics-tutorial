@@ -47,7 +47,7 @@ Empty arrays are often used to add values to it later.
 * `Array keys` can either be (whole) numbers (starting from zero), or strings. 
 * `Array values` can be of any type. You already know the types `string`, `number`, and now `array`. More value types are explained later.
 
-**Note**: In PHP (and in math) we call whole numbers (without any decimal part) "integers".
+**Note**: In PHP (and in math) we call whole numbers (without any decimal part) `integers`.
 
 #### Adding Values to Numerical Arrays
 By adding empty "square brackets" `[]` after an `array variable` you can add a new value to it.
