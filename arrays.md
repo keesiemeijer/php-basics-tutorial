@@ -14,7 +14,7 @@ This is an array with 3 array elements (dog, cat and rabbit).
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-This array has no array keys. PHP sees arrays without keys as if it has numbered array keys. In this example PHP sees it like this (with array keys 0, 1 and 2).
+This array has no array keys. PHP sees arrays without keys as if it has numbered array keys. In this example PHP sees the array like this (with array keys 0, 1 and 2).
 
 ```php
 $animals = array(
@@ -24,7 +24,7 @@ $animals = array(
 );
 ```
 
-Arrays with **only** numbered keys are called `numerical arrays`. For convenience we don't have to add the keys for numerical arrays (if we don't want to).
+Arrays with **only** numbered keys are called `numerical arrays`. For convenience we don't have to add the numbered keys for numerical arrays (if we don't want to).
 
 As you can see, the format for array elements in PHP is `key => value` with the `=>` part seperating the key from the value. It's also allowed to have a comma after the last element (see `2 => 'rabbit',`).
 
