@@ -223,15 +223,15 @@ To recap.
 * Array elements have a key and a value
 * The format for array elements in PHP is `key => value`
 * Empty arrays have no array elements
-* A comma after the last array element is also allowed
+* A comma after the last array element is allowed
 * Integers are whole numbers without any decimal part
 * Most programming languages start counting from 0
 * Array keys can either be integers (starting from zero), or strings
 * Array values can be of any type
 * Numerical arrays have only numbered keys
 * Associative arrays have one or more (or only) string keys
-* Multidimensional arrays are arrays containing one or more other arrays
-* Nested arrays are arrays inside multidimensional arrays.
+* Multidimensional arrays are arrays containing one or more arrays
+* Nested arrays are the arrays inside a multidimensional array.
 * It's allowed to leave the array keys out in numerical array elements.
 * Square brackets (after an array variable) are used to add or access array values
 * Use an existing array key inside square brackets to update array values
