@@ -32,13 +32,13 @@ In PHP lingo we can now say "The first element of this array has array key `0` w
 
 **Note**: Most programming languages start counting from 0.
 
-Arrays with no elements are also allowed. We call this an "empty array".
+Arrays with no elements are also allowed. We call this an `empty array`.
 
 ```php
 $empty_array = array();
 ```
 
-This is often used to add values to it later.
+Empty arrays are often used to add values to it later.
 
 #### Keys and Values 
 
