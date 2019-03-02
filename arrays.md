@@ -230,7 +230,8 @@ To recap.
 * Array values can be of any type
 * Numerical arrays have only numbered keys
 * Associative arrays have one or more (or only) string keys
-* Multidimensional arrays are arrays containing other arrays
+* Multidimensional arrays are arrays containing one or more other arrays
+* Nested arrays are arrays inside multidimensional arrays.
 * It's allowed to leave the array keys out in numerical array elements.
 * Square brackets (after an array variable) are used to add or access array values
 * Use an existing array key inside square brackets to update array values
