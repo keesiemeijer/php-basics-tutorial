@@ -14,7 +14,7 @@ This is an array with 3 array elements (dog, cat and rabbit).
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-This array has no array keys. This is allowed as PHP sees arrays without keys as if it has numbered array keys. In this example PHP sees it like this (with array keys are 0, 1 and 2).
+This array has no array keys. PHP sees arrays without keys as if it has numbered array keys. In this example PHP sees it like this (with array keys 0, 1 and 2).
 
 ```php
 $animals = array(
