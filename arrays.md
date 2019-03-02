@@ -229,7 +229,7 @@ To recap.
 * Integers are whole numbers without any decimal part
 * Most programming languages start counting from 0
 * Array keys can either be integers (starting from zero), or strings
-* Array values can be of any type
+* Array values can be of any type (including strings, numbers or arrays)
 * Numerical arrays have only numbered keys
 * Associative arrays have one or more (or only) string keys
 * Multidimensional arrays are arrays containing one or more arrays
