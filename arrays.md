@@ -1,14 +1,14 @@
 ## Arrays
 In most programming languages, an array is a collection of elements. Arrays allow us to store more than one value in a single variable.
 
+**Note**: The PHP opening and closing tags are left out in all code examples below. Assume the code is inside PHP tags `<?php ?>`.
+
 Here's how an array is described in PHP.
 
 * An `array` has `elements` separated by commas
 * An `array element` has a `key` and a `value`
 
 Let me explain what this means.
-
-**Note**: The PHP opening and closing tags are left out in all code examples below. Assume the code is inside PHP tags `<?php ?>`.
 
 This is an array with 3 array elements (dog, cat and rabbit).
 
