@@ -224,7 +224,7 @@ To recap.
 * The format for array elements in PHP is `key => value`
 * Arrays with no elements are allowed
 * A comma after the last array element is also allowed
-* Integers are whole numbers (without any decimal part)
+* Integers are whole numbers without any decimal part
 * Most programming languages start counting from 0
 * Array keys can either be integers (starting from zero), or strings
 * Array values can be of any type
