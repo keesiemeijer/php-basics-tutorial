@@ -50,7 +50,7 @@ Empty arrays are often used to add values to it later.
 **Note**: In PHP (and in math) we call whole numbers (without any decimal part) `integers`.
 
 #### Adding Values to Numerical Arrays
-By adding empty "square brackets" `[]` after an `array variable` you can add a new value to it.
+By adding empty square brackets `[]` after an `array variable` you can add a new value to it.
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
