@@ -8,6 +8,8 @@ Here's how an array is described in PHP.
 
 Let me explain what this means.
 
+**Note**: The PHP opening and closing tags are left out in all code examples below. Assume the code is inside PHP tags `<?php ?>`.
+
 This is an array with 3 array elements (dog, cat and rabbit).
 
 ```php
