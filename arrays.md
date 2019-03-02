@@ -32,7 +32,7 @@ As you can see, the format for array elements in PHP is `key => value` with the 
 
 In PHP lingo we can now say "The first element of this array has array key `0` with the array value `dog`."
 
-**Note**: Most programming languages start counting from 0.
+**Note**: In most programming languages counting starts from 0.
 
 Arrays with no elements are also allowed. We call this an `empty array`.
 
