@@ -24,9 +24,11 @@ $animals = array(
 );
 ```
 
-As you can see, the format for array elements in PHP is `key => value`.
+Arrays with **only** numbered keys are called `numerical arrays`. For convenience we don't have to add the keys for numerical arrays if we don't want to.
 
-In PHP lingo we can now say "The first element of the array has array key `0` with the array value `dog`."
+As you can see, the format for array elements in PHP is `key => value` with the `=>` part seperating the key from the value. It's also allowed to have a comma after the last element (see `2 => 'rabbit',).
+
+In PHP lingo we can now say "The first element of this array has array key `0` with the array value `dog`."
 
 **Note**: Most programming languages start counting from 0.
 
@@ -43,8 +45,6 @@ $empty_array = array();
 * `Array values` can be of any type. You already know the types `string`, `number`, and now `array`. More value types are explained later.
 
 **Note**: In PHP (and in math) we call whole numbers (without any decimal part) "integers".
-
-Arrays with **only** numbered keys are called a `numerical array` 
 
 #### Adding Values to Numerical Arrays
 By adding empty "square brackets" `[]` after the array variable you can add a new value to it.
