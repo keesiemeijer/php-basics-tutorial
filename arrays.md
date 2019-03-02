@@ -26,7 +26,7 @@ $animals = array(
 );
 ```
 
-Arrays with **only** numbered keys are called `numerical arrays`. For convenience we don't have to add the numbered keys for numerical arrays. We can add the numbered keys ourself if we wanted to.
+Arrays with **only** numbered keys are called `numerical arrays`. For convenience we don't have to add the numbered keys for numerical arrays. We could add the numbered keys ourself if we wanted the numbered keys to be different.
 
 As you can see, the format for array elements in PHP is `key => value` with the `=>` part seperating the key from the value. It's also allowed to have a comma after the last element (see `2 => 'rabbit',` in the code above).
 
