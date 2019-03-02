@@ -38,6 +38,7 @@ Arrays with no elements are also allowed. We call this an "empty array".
 $empty_array = array();
 ```
 
+This often used to add values to it later.
 
 #### Keys and Values 
 
