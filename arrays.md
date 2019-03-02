@@ -56,7 +56,7 @@ $animals = array( 'dog', 'cat', 'rabbit' );
 $animals[] = 'chicken';
 ```
 
-This is how PHP sees the `$animals` variable after adding the `chicken` value.
+This is how PHP sees the value of the `$animals` variable after adding the `chicken` value to it.
 
 ```php
 array(
