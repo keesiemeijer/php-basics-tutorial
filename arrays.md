@@ -226,9 +226,10 @@ To recap.
 * Array keys can either be (whole) numbers (starting from zero), or strings
 * Array values can be of any type
 * Numerical arrays have only numbered keys
-* Associative arrays have one or more (or only) string keys.
-* multidimensional arrays are arrays containing other arrays
-* Square brackets are used to add or access array values.
+* Associative arrays have one or more (or only) string keys
+* Multidimensional arrays are arrays containing other arrays
+* Array keys are not needed for numerical arrays (PHP will add them for us)
+* Square brackets are used to add or access array values
 * Use an existing array key inside square brackets to update array values
 * Use a unique array key inside square brackets to add a new value to an array.
 * Most programming languages start counting from 0
