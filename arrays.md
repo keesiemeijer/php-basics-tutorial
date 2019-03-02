@@ -85,7 +85,7 @@ This will display `The first array value is dog`. Remember, PHP sees arrays with
 
 #### Using Your Own Array Keys
 
-As we've leared array keys can be integers or strings. Let's see how an array with our own (string) array keys looks like.
+As you’ve seen, array keys can be integers or strings. Let's see how an array with our own (string) array keys looks like.
 
 ```php
 $colors = array( 
