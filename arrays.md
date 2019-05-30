@@ -1,6 +1,8 @@
 ## Arrays
 In most programming languages, an array is a collection of elements. Arrays allow us to store more than one value in a single variable.
 
+**Note**: The PHP opening and closing tags are left out in all code examples below. Assume the code is inside PHP tags `<?php ?>`.
+
 Here's how an array is described in PHP.
 
 * An `array` has `elements` separated by commas
@@ -14,7 +16,7 @@ This is an array with 3 array elements (dog, cat and rabbit).
 $animals = array( 'dog', 'cat', 'rabbit' );
 ```
 
-This array has no array keys. This is allowed as PHP sees arrays without keys as if it has numbered array keys. In this example PHP sees it like this (with array keys are 0, 1 and 2).
+This array has no array keys. PHP sees arrays without keys as if it has numbered array keys. In this example PHP sees the array like this (with array keys 0, 1 and 2).
 
 ```php
 $animals = array(
@@ -24,30 +26,31 @@ $animals = array(
 );
 ```
 
-As you can see, the format for array elements in PHP is `key => value`.
+Arrays with **only** numbered keys are called `numerical arrays`. For convenience we don't have to add the numbered keys for numerical arrays. We could add the numbered keys ourself if we wanted the numbered keys to be different.
 
-In PHP lingo we can now say "The first element of the array has array key `0` with the array value `dog`."
+As you can see, the format for array elements in PHP is `key => value` with the `=>` part seperating the key from the value. It's also allowed to have a comma after the last element (see `2 => 'rabbit',` in the code above).
 
-**Note**: Most programming languages start counting from 0.
+In PHP lingo we can now say "The first element of this array has array key `0` with the array value `dog`."
 
-Arrays with no elements are also allowed. We call this an "empty array".
+**Note**: In most programming languages counting starts from 0.
+
+Arrays with no elements are also allowed. We call this an `empty array`.
 
 ```php
 $empty_array = array();
 ```
 
+Empty arrays are often used to add values to it later.
 
 #### Keys and Values 
 
 * `Array keys` can either be (whole) numbers (starting from zero), or strings. 
 * `Array values` can be of any type. You already know the types `string`, `number`, and now `array`. More value types are explained later.
 
-**Note**: In PHP (and in math) we call whole numbers (without any decimal part) "integers".
-
-Arrays with **only** numbered keys are called a `numerical array` 
+**Note**: In PHP (and in math) we call whole numbers (without any decimal part) `integers`.
 
 #### Adding Values to Numerical Arrays
-By adding empty "square brackets" `[]` after the array variable you can add a new value to it.
+By adding empty square brackets `[]` after an `array variable` you can add a new value to it.
 
 ```php
 $animals = array( 'dog', 'cat', 'rabbit' );
@@ -56,7 +59,7 @@ $animals = array( 'dog', 'cat', 'rabbit' );
 $animals[] = 'chicken';
 ```
 
-This is how PHP sees the `$animals` variable after adding the `chicken` value.
+This is how PHP sees the value of the `$animals` variable after adding the `chicken` value to it.
 
 ```php
 array(
@@ -85,7 +88,7 @@ This will display `The first array value is dog`. Remember, PHP sees arrays with
 
 #### Using Your Own Array Keys
 
-As we've leared array keys can be integers or strings. Let's see how an array with our own (string) array keys looks like.
+As you’ve seen, array keys can be integers or strings. Let's see how an array with our own (string) array keys looks like.
 
 ```php
 $colors = array( 
@@ -214,6 +217,27 @@ As you can see the new `toy` key with the value `tennisball` is added to the `do
 
 #### Accessing Values from a Multidimensional Array
 (Todo)
+
+To recap.
+
+* Arrays allow us to store more than one value in a single variable
+* Arrays have elements separated by commas
+* Array elements have a key and a value
+* The format for array elements in PHP is `key => value`
+* Empty arrays have no array elements
+* It's allowed to have a comma after the last array element
+* Integers are whole numbers without any decimal part
+* Most programming languages start counting from 0
+* Array keys can either be integers (starting from zero), or strings
+* Array values can be of any type (including strings, numbers or arrays)
+* Numerical arrays have only numbered keys
+* Associative arrays have one or more (or only) string keys
+* Multidimensional arrays are arrays containing one or more arrays
+* Nested arrays are the arrays inside a multidimensional array.
+* It's allowed to leave the array keys out in numerical array elements.
+* Square brackets (after an array variable) are used to add or access array values
+* Use an existing array key inside square brackets to update array values
+* Use a unique array key inside square brackets to add a new value to an array.
 
 ---
 
