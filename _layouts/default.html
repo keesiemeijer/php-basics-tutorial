@@ -61,12 +61,11 @@
 
 jQuery('div.editor').each(function() {
   this.removeClass('editor').addClass('code');
-  this.attr({
-    ids: "code_1",
-    data-ace-editor-id: 1,
-    data-ace-editor-allow-execution: true,
-    data-ace-editor-hide-vars: true,
-  });
+  this.attr('id', 'code_1' );
+  this.data( "ace-editor-id", 1 );
+  this.data( "ace-editor-allow-execution", true );
+  this.data( "ace-editor-hide-vars", true );
+
   this.wrap('<pre class="editor" id="code_editor_1"></pre>');
 
 
