@@ -18,9 +18,17 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- Include the dependencies -->
+    <link rel="stylesheet" id="font-awesome"  href="libs/font-awesome.min.css" type="text/css" />
+    <script type="text/javascript" src="libs/jquery-2.1.4.min.js"></script> 
+    <script type="text/javascript" src="libs/ace/ace.js"></script>
+    <script type="text/javascript" src="libs/FileSaver.js"></script>
+
+    <!-- Include the script and css for the online php editor --> 
+    <link rel="stylesheet" href="css/php-einfach-online-php-editor.css" type="text/css" />
+    <script type="text/javascript" src="js/php-einfach-online-php-editor.js"></script>
   </head>
   <body>
-    hello
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
@@ -46,4 +54,12 @@
       </footer>
     </main>
   </body>
+  <!-- Call this script to transform your HTML code to actual editors -->
+<script>
+jQuery('div').each(function() {
+  var url='http://execute.php-einfach.de:9999/execute.php';
+  var language = 'en'; //Choose 'de' for German
+  new OnlinePHPEditor(this, language, url);
+});
+</script>
 </html>
