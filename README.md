@@ -1,5 +1,7 @@
 # Learn the Basics of PHP
 
+<div>test</div>
+
 PHP is a popular programming language that is especially used for web development.
 
 In this tutorial you learn the basic concepts of the PHP language and its terminology. It's assumed the reader has little to no knowledge of PHP (or other programming languages). This tutorial can be used as a starting point for people just starting with programming. The chapters are kept small and to the point for this reason.
