@@ -2,7 +2,7 @@
 
 <div  class="code" id="code_1" data-ace-editor-id="1"
 	data-ace-editor-allow-execution="true" data-ace-editor-hide-vars="false" 
-	data-ace-editor-script-name="page.php" data-ace-editor-default-get="" data-ace-editor-default-post="">test</div
+	data-ace-editor-script-name="page.php" data-ace-editor-default-get="" data-ace-editor-default-post="">test</div>
 
 PHP is a popular programming language that is especially used for web development.
 
