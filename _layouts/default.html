@@ -57,7 +57,7 @@
   </body>
   <!-- Call this script to transform your HTML code to actual editors -->
 <script>
-jQuery('div').each(function() {
+jQuery('#content div').each(function() {
   var url='http://execute.php-einfach.de:9999/execute.php';
   var language = 'en'; //Choose 'de' for German
   new OnlinePHPEditor(this, language, url);
