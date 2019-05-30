@@ -60,13 +60,13 @@
 <script>
 
 jQuery('div.editor').each(function() {
-  this.removeClass('editor').addClass('code');
-  this.attr('id', 'code_1' );
-  this.data( "ace-editor-id", 1 );
-  this.data( "ace-editor-allow-execution", true );
-  this.data( "ace-editor-hide-vars", true );
+  jQuery(this).removeClass('editor').addClass('code');
+  jQuery(this).attr('id', 'code_1' );
+  jQuery(this).data( "ace-editor-id", 1 );
+  jQuery(this).data( "ace-editor-allow-execution", true );
+  jQuery(this).data( "ace-editor-hide-vars", true );
 
-  this.wrap('<pre class="editor" id="code_editor_1"></pre>');
+  jQuery(this).wrap('<pre class="editor" id="code_editor_1"></pre>');
 
 
   var url='http://execute.php-einfach.de:9999/execute.php';
