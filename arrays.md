@@ -26,7 +26,7 @@ $animals = array(
 );
 ```
 
-<iframe src="https://wtools.io/code/embed-iframe/iT2" style="border:none;width:100%"></iframe>
+<script src="https://wtools.io/code/embed-js/iT2"></script>
 
 Arrays with **only** numbered keys are called `numerical arrays`. For convenience we don't have to add the numbered keys for numerical arrays. We could add the numbered keys ourself if we wanted the numbered keys to be different.
 
