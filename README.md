@@ -1,6 +1,6 @@
 # Learn the Basics of PHP
 
-<div class="editor">test</div>
+<div class="editor"> &lt;?php </div>
 
 PHP is a popular programming language that is especially used for web development.
 
