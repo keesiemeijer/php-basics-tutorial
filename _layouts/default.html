@@ -56,8 +56,20 @@
     </main>
   </body>
   <!-- Call this script to transform your HTML code to actual editors -->
+
 <script>
-jQuery('#content div').each(function() {
+
+jQuery('div.editor').each(function() {
+  this.removeClass('editor').addClass('code');
+  this.attr({
+    id: "code_1",
+    data-ace-editor-id: 1,
+    data-ace-editor-allow-execution: true,
+    data-ace-editor-hide-vars: true,
+  });
+  this.wrap('<pre class="editor" id="code_editor_1"></pre>');
+
+
   var url='http://execute.php-einfach.de:9999/execute.php';
   var language = 'en'; //Choose 'de' for German
   new OnlinePHPEditor(this, language, url);
